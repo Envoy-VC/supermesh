@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@openmesh/style-guide/typescript/node20",
+  "compilerOptions": {
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "checkJs": true,
+    "lib": ["dom", "dom.iterable", "ES2022", "ES2023"],
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "es2016",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": [
+    "*.config.{js,ts,tsx,jsx}",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.js"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

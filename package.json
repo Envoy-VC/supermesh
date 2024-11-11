@@ -16,6 +16,8 @@
 		"version-packages": "changeset version",
 		"release": "pnpm build && changeset publish",
 		"commitlint": "commitlint --edit",
-		"prepare": "husky"
+		"prepare": "husky",
+		"build": "lerna run build",
+		"test": "lerna run test"
 	}
 }
