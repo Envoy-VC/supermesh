@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@openmesh/style-guide/typescript/node20",
+  "extends": "@supermesh/style-guide/typescript/node20",
   "compilerOptions": {
     "allowJs": true,
     "resolveJsonModule": true,
