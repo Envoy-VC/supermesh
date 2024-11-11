@@ -123,7 +123,7 @@ importers:
       '@eslint/js':
         specifier: ^9.14.0
         version: 9.14.0
-      '@openmesh/style-guide':
+      '@supermesh/style-guide':
         specifier: workspace:*
         version: link:../config
       '@types/node':
@@ -156,7 +156,7 @@ importers:
       '@eslint/js':
         specifier: ^9.14.0
         version: 9.14.0
-      '@openmesh/style-guide':
+      '@supermesh/style-guide':
         specifier: workspace:*
         version: link:../config
       '@types/node':
