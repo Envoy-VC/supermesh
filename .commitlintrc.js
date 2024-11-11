@@ -45,6 +45,8 @@ module.exports = {
 				'config',
 				// Websites-related changes
 				'web',
+				// Schema-related changes
+				'schema',
 			],
 		],
 		'scope-empty': [1, 'never'],

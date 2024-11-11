@@ -1,4 +1,4 @@
-import commonPrettierOptions from "@openmesh/style-guide/prettier";
+import commonPrettierOptions from "@supermesh/style-guide/prettier";
 
 /** @type {import('prettier').Config} */
 const config = {

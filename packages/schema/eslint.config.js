@@ -1,6 +1,6 @@
-import browserConfig from "@openmesh/style-guide/eslint/browser";
-import nodeConfig from "@openmesh/style-guide/eslint/node";
-import typescriptConfig from "@openmesh/style-guide/eslint/typescript";
+import browserConfig from "@supermesh/style-guide/eslint/browser";
+import nodeConfig from "@supermesh/style-guide/eslint/node";
+import typescriptConfig from "@supermesh/style-guide/eslint/typescript";
 import { configs } from "typescript-eslint";
 
 /** @type {import('eslint').Linter.Config[]} */
