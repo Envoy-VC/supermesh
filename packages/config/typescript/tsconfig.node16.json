@@ -1,8 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./tsconfig.base.json",
-  "display": "Vercel Node 16",
-  "docs": "https://github.com/vercel/style-guide",
+  "display": "SuperMesh Node 16",
+  "docs": "https://github.com/Envoy-VC/supermesh/tree/main/packages/config",
+
   "compilerOptions": {
     "lib": ["es2021"],
     "module": "node16",

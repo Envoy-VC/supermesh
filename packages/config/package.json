@@ -1,13 +1,13 @@
 {
-  "name": "@openmesh/style-guide",
+  "name": "@supermesh/style-guide",
   "version": "0.0.0",
-  "description": "OpenMesh style guide",
+  "description": "SuperMesh style guide",
   "bugs": {
-    "url": "https://github.com/Envoy-VC/openmesh/issues"
+    "url": "https://github.com/Envoy-VC/supermesh/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Envoy-VC/openmesh.git"
+    "url": "https://github.com/Envoy-VC/supermesh.git"
   },
   "license": "MIT",
   "exports": {
