@@ -1,14 +1,12 @@
 {
   "name": "@supermesh/schema",
-  "private": false,
-  "type": "module",
   "version": "0.0.0",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist/**"
-  ],
+  "private": false,
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -16,18 +14,27 @@
       "require": "./dist/index.js"
     }
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
+    "build": "tsup",
     "dev": "vitest",
-    "test": "vitest run",
-    "build": "tsup"
+    "test": "vitest run"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "@dao-xyz/borsh": "^5.2.3",
+    "@peerbit/document": "^7.1.16",
+    "@peerbit/program": "^5.0.8",
+    "peerbit": "^4.0.27",
+    "uuid": "^11.0.3"
+  },
   "devDependencies": {
+    "@envoy1084/style-guide": "^0.1.0",
     "@eslint/js": "^9.14.0",
-    "@supermesh/style-guide": "workspace:*",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/node": "^22.9.0",
     "@typescript-eslint/parser": "^8.11.0",
@@ -37,12 +44,5 @@
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.11.0",
     "vitest": "^2.1.4"
-  },
-  "dependencies": {
-    "@dao-xyz/borsh": "^5.2.3",
-    "@peerbit/document": "^7.1.16",
-    "@peerbit/program": "^5.0.8",
-    "peerbit": "^4.0.27",
-    "uuid": "^11.0.3"
   }
 }
